@@ -1,0 +1,561 @@
+/* 顶部导航栏 */
+/* #region */
+/* 顶部导航栏左侧start */
+.top {
+    height: 30px;
+    background-image: url(../yys/1366x768\ \(2\).jpg);
+    background-position: 246px 682px;
+}
+
+.welcom {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 0;
+}
+
+.welcom a,
+span {
+    color: white;
+    font-size: 12px;
+}
+
+
+.leftfix .hello {
+    margin-right: 28px;
+}
+
+.welcom .login {
+    padding-right: 10px;
+}
+
+.welcom .jion {
+    padding-left: 10px;
+    border-left: 1px solid black;
+}
+
+/* 顶部导航栏左侧end */
+
+
+/* 顶部导航栏右侧start */
+.shop {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.shop ul li {
+    float: left;
+}
+
+.shop ul li a {
+    color: white;
+    padding: 0 15px;
+    border-right: 1px solid black;
+}
+
+.shop ul li:last-child a {
+    border-right: 0;
+}
+
+/* 顶部导航栏右侧end */
+/* #endregion */
+
+
+/* #region 头部 */
+.header {
+    height: 120px;
+    overflow: hidden;
+    background-image: url(../yys/1366x768\ \(2\).jpg);
+    background-position: -80px 654px;
+}
+
+.header .leftfix img {
+    width: 190px;
+    height: 120px;
+}
+
+
+.serch {
+
+    margin-top: 42px;
+    height: 120px;
+    /* 清除空隙 botton和input之间的空*/
+    font-size: 0;
+}
+
+
+.header .rightfix input {
+    width: 508px;
+    height: 34px;
+    border: 1px solid rgb(251, 86, 86);
+}
+
+.header .serch button {
+
+    font-family: 'icomoon';
+    width: 80px;
+    height: 36px;
+    border: 1px solid rgb(255, 88, 88);
+    vertical-align: top;
+}
+
+/* #endregion */
+
+
+/* #region 主导航 */
+
+.mhead {
+    /* margin-top: 30px; */
+    height: 48px;
+    border-bottom: 1px solid rgb(122, 24, 24);
+}
+
+.mhead1 div {
+    /* border: 1px solid red; */
+    float: left;
+    text-align: center;
+    color: aliceblue;
+
+    width: 190px;
+    height: 48px;
+    line-height: 48px;
+    background-color: rgb(236, 96, 96);
+}
+
+.mhead1 ul li {
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    padding: 0px 10px;
+    font-size: 16px;
+}
+
+.mhead1 ul li a {
+    font-size: 14px;
+}
+
+
+.mhead1 ul:first-child li {
+    background-color: rgb(243, 99, 99);
+}
+
+/* #endregion */
+
+
+/*#region 左侧菜单*/
+.all {
+    margin-top: 15px;
+    height: 458px;
+    /* background-color: rgb(212, 204, 204); */
+}
+
+.all-left {
+    position: relative;
+    height: 458px;
+    width: 190px;
+    background-color: rgb(153, 153, 153);
+}
+
+.all-left li {
+    text-align: center;
+    font-size: 14px;
+    padding: 12px 5px;
+}
+
+.all-left li:hover {
+    background-color: rgb(183, 80, 80);
+}
+
+.all-left li a {
+    color: rgb(236, 233, 228)
+}
+
+.all-left li>a:hover {
+    color: rgb(214, 175, 152);
+}
+
+/* #endregion */
+
+/* #region 中间内容区域 */
+.sencond,
+.third {
+    width: 700px;
+    height: 458px;
+    background-color: skyblue;
+    position: absolute;
+    top: 0px;
+    left: 190px;
+    display: none;
+}
+
+
+.img1,
+.img2,
+.img3 {
+    width: 700px;
+    height: 458px;
+    position: absolute;
+    top: 0px;
+    left: 190px;
+    display: none;
+}
+
+.all-left li:hover .img1 {
+    display: block;
+    overflow: hidden;
+}
+
+.all-left li:hover .img2 {
+    display: block;
+    overflow: hidden;
+}
+
+.all-left li:hover .img3 {
+    display: block;
+    overflow: hidden;
+}
+
+.all-left li:hover .sencond {
+    display: block;
+}
+
+.all-left li:hover .third {
+    display: block;
+}
+
+.sencond dl,
+.third dl {
+    margin-top: 10px;
+    height: 36px;
+    line-height: 36px;
+}
+
+.sencond dt a,
+.third dt a {
+    margin-right: 10px;
+    padding-left: 20px;
+    color: black;
+    float: left;
+}
+
+.sencond dd a,
+.third dd a {
+    padding: 0px 20px;
+    color: gray;
+    float: left;
+    border-left: 1px solid rgb(0, 0, 0);
+}
+
+
+.midle {
+    margin-left: 10px;
+    height: 458px;
+    width: 690px;
+    background-color: rgb(203, 232, 157);
+}
+
+.midle img {
+    width: 690px;
+    height: 458px;
+}
+
+/* #endregion 中间内容区域 */
+
+/* #region 中间右边 */
+.all-right {
+    height: 458px;
+    width: 290px;
+}
+
+.all-right .message {
+    height: 158px;
+    width: 260px;
+
+    padding: 0px 14px;
+    border: 1px solid rgb(7, 3, 3, .5);
+}
+
+.all-right .message2 {
+
+    margin-top: 10px;
+    width: 290px;
+    height: 290px;
+    /* background-color: aqua; */
+    /* 解决塌陷问题 */
+    overflow: hidden;
+}
+
+.la {
+    height: 39px;
+    line-height: 39px;
+    border-bottom: 1px solid gray;
+}
+
+.message .la span {
+    color: palevioletred;
+    font-size: 14px;
+    float: left;
+}
+
+.message .la a {
+    color: palevioletred;
+    font-size: 12px;
+    float: right;
+}
+
+
+
+.lb li {
+    color: rgb(249, 97, 148, .8);
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.ul1 li {
+    float: left;
+
+    margin: 0px 11px;
+    height: 70px;
+    width: 48px;
+    background-color: rgb(210, 191, 191);
+
+}
+
+.ul1 li img {
+    height: 70px;
+    width: 48px;
+}
+
+.message2 {
+    background-color: #f1d8e6;
+}
+
+.message2 .ul1:first-child {
+    margin-top: 16px;
+}
+
+.message2 .ul1 li:first-child {
+    margin-left: 16px;
+}
+
+.message2 .ul1:nth-child(2) {
+    margin: 17px 0px;
+}
+
+/* #endregion 内容区域end */
+
+/* #region 秒杀 */
+.kill {
+    height: 230px;
+    margin-top: 10px;
+}
+
+.kill img {
+    float: left;
+    margin-right: 10px;
+    width: 230px;
+    height: 230px;
+
+    cursor: pointer;
+}
+
+.kill img:last-child {
+    /* float: right; */
+    margin-right: 0px;
+}
+
+/* #endregion 秒杀 */
+
+/* #region楼层 */
+
+.flood {
+    margin-top: 48px;
+}
+
+.flood1 {
+    height: 30px;
+    border-bottom: 2px solid rgb(215, 24, 24);
+}
+
+.flood1 span {
+    color: rgb(218, 53, 53);
+    font-size: 20px;
+    float: left;
+}
+
+.flood1 ul {
+    float: right;
+}
+
+.flood1 ul li {
+    border-left: 1px solid gray;
+    float: left;
+    cursor: pointer;
+}
+
+.flood1 ul li:first-child {
+    border-left: 0;
+}
+
+.flood1 ul li a {
+    color: rgb(218, 53, 53);
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+
+.item1 {
+    float: left;
+    width: 230px;
+    height: 432px;
+
+    background-color: rgb(141, 140, 140, .1);
+}
+
+.item1-top {
+    margin: 20px 20px;
+    height: 108px;
+    width: 190px;
+}
+
+.item1-top li {
+    padding: 10px 10px;
+    padding-bottom: 3.5px;
+
+    float: left;
+    margin-right: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.item1-top li a {
+    font-size: 16px;
+}
+
+.item1 img {
+    margin-left: 20px;
+    width: 194px;
+    height: 242px;
+}
+
+.item2 {
+    float: left;
+    width: 340px;
+    height: 432px;
+}
+
+.item2 img {
+    width: 340px;
+    height: 432px;
+}
+
+.item3 {
+    float: left;
+    width: 206px;
+    height: 432px;
+
+    background-color: rgb(64, 186, 186);
+}
+
+.item3 img {
+    width: 206px;
+    height: 215px;
+    border-bottom: 1px solid gray;
+}
+
+.item4 {
+    float: left;
+    width: 206px;
+    height: 432px;
+    border-left: 1px solid rgb(229, 229, 229);
+    border-right: 1px solid rgb(229, 229, 229);
+    background-color: rgb(197, 142, 32);
+}
+
+.item4 img {
+    width: 206px;
+    height: 432px;
+}
+
+.item5 {
+    float: left;
+    width: 206px;
+    height: 432px;
+    background-color: rgb(186, 30, 225);
+}
+
+.item5 img {
+    width: 206px;
+    height: 216px;
+}
+
+/* #endregion楼层 */
+
+/* #region页脚 */
+
+
+.footer {
+    margin-top: 48px;
+    height: 440px;
+    background-color: #483e3e;
+}
+
+.last-top ul {
+    margin-top: 48px;
+    margin-right: 10px;
+    width: 190px;
+    height: 176px;
+    float: left;
+}
+
+.last-top :last-child {
+    margin-right: 0px;
+}
+
+.last-top a {
+    font-size: 14px;
+    color: rgb(218, 234, 249);
+}
+
+.line {
+    margin-top: 22px;
+    height: 1px;
+    background-color: #20ef09;
+}
+
+.about0 {
+    margin-top: 47px;
+    text-align: center;
+}
+
+.about {
+    display: inline-block;
+}
+
+.about li {
+    float: left;
+    padding: 0 26px;
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
+.about li a {
+    color: white;
+    font-size: 12px;
+}
+
+.about li:last-child {
+    border-right: 0;
+}
+
+.safe {
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgb(182, 180, 180);
+    text-align: center;
+}
+
+/* #endregion页脚 */
+
+
+/* 乐了  */

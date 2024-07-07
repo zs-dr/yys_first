@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.leftfix {
+    float: left;
+}
+
+.rightfix {
+    float: right;
+}
+
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    /* 清除底部留白 */
+    display: block;
+
+    /* 兼容问题 */
+    border: 0;
+}
+
+a {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* 版心 */
+.w {
+    margin: 0 auto;
+    width: 1190px;
+    /* background-color: gray; */
+}
+
+body {
+
+    /* background-image: url(../yys/1366x768\ \(2\).jpg); */
+    background-color: rgba(252, 224, 236, 0.8);
+}
